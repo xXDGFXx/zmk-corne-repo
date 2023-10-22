@@ -36,15 +36,15 @@
             bindings = <&caps_word>;
             key-positions = <17 18>;
             timeout-ms = <150>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <275>;
             layers = <0>;
         };
 
         combo_capslock {
             bindings = <&kp CAPS>;
-            key-positions = <3 8>;
+            key-positions = <7 8 9>;
             timeout-ms = <150>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <1000>;
             layers = <0>;
         };
 
